@@ -1,0 +1,8 @@
+PROMPT
+prompt() -> uma forma para receber entradas de informações fornecidas pelo usuário
+por padrão, prompt recebe entradas como string, para mudar é preciso alterar, ex:
+    let number = Number(prompt('Insira o numbero:)); -> assim converterá a string para número.
+
+ALERT
+alert() -> gera um alerta/mensagem na janela do site. É possível usar o templateStrins (com crases) para poder usar strings com expressões e variáveis, ex:
+    alert(`${n1} + ${n2} = ${resultado}`);
