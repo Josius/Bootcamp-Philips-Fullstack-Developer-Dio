@@ -140,7 +140,7 @@ for(let i = array.length; i >= 0; i--){
 
 //Objetos
 //Estrutura do tipo 'chave/valor' (Map -> em Java)
-/*
+
 let obj = {};
 console.log(obj);
 obj.name = "julia";
@@ -167,7 +167,7 @@ console.log(person);
 let mom = "nomeDaMae";
 person[mom] = "Maria";
 console.log(person);
-*/
+
 
 //Empty, undefined e null
 
