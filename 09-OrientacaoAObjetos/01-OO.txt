@@ -1,0 +1,24 @@
+Paradigmas e Pilares
+
+Paradigmas:
+    Imperativo -> Como vai resolver os problemas
+        Procedural
+        Orientação a Objetos
+        Processamento Paralelo
+
+    Declarativo -> O que vc vai fazer para resolver
+        Lógica
+        Programação Funcional
+        Banco de Dados
+        Dataflow
+
+Orientação a Objetos
+    Pilares:
+        Herança
+            O objeto filho herda propriedades e métodos do objeto pai.
+        Polimorfismo
+            Objetos podem herdar a mesma classe pai, mas se comportarem de forma diferente quando invocamos seus métodos.
+        Encapsulamento
+            Cada classe possui propriedades e métodos independentes do restante do código.
+        Abstração -> tornar/generalizar um problema complexo em um simples:
+            Processo mental que consiste em isolar um aspecto determinado de um estado de coisas relativamente complexo, para fins de simplificar a sua avaliação, classificação ou para permitir a comunicação do mesmo.

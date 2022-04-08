@@ -1,0 +1,25 @@
+Protótipos
+    Protótipos são o esqueleto de todos os objetos, ou seja, todos os objetos em JS herdam propriedades e métodos de um prototype. Object.prototype está no topo da cadeia.
+
+Exemplo de cadeia prototype (de baixo para cima): 
+
+    Object.prototype = null;
+    Object(){}
+    Function.prototype.construtor
+    Function
+    Animal.construtor
+    Bird
+    Corvo
+
+Classes
+    Não existem nativamente no JS. O que ocorre é que classes são objetos e qualquer tipo de herança é feita por protótipos.
+    Syntatic sugar: uma sintaxe feita para facilitar a escrita:
+        class Meal{
+            constructor (food){
+                this.food = food;
+            }
+            eat(){
+                return alimentado;
+            }
+        }
+
