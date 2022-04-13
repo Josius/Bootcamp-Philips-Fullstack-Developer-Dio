@@ -1,0 +1,19 @@
+<!-- abaixo é uma interpolação (usando chaves duplas e passando uma variável) -->
+{{ title }}
+
+<br>
+
+{{ name }} 
+
+<br>
+
+<!-- One way databind -> NÃO altera valor da variável, sua funcionalidade é só para exibir o valor da variável: -->
+<input [ngModel]="name" name="name">
+
+<br>
+<!-- Two way databind -> ALTERA valor da variável, exibir e alterar o valor da variável, de forma que essa mudança seja propagada em todas as referências dessa variável: -->
+<input [(ngModel)]="name" name="name">
+
+<div class="container">
+  <app-course-list></app-course-list>
+</div>
