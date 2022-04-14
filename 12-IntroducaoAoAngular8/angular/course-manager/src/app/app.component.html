@@ -1,0 +1,24 @@
+<!-- abaixo é uma interpolação (usando chaves duplas e passando uma variável) -->
+<!-- {{ title }}
+
+<br>
+
+{{ name }} 
+
+<br> -->
+
+<!-- One way databind -> NÃO altera valor da variável, sua funcionalidade é só para exibir o valor da variável: -->
+<!-- <input [ngModel]="name" name="name">
+
+<br> -->
+<!-- Two way databind -> ALTERA valor da variável, exibir e alterar o valor da variável, de forma que essa mudança seja propagada em todas as referências dessa variável: -->
+<!-- <input [(ngModel)]="name" name="name"> -->
+<app-nav-bar></app-nav-bar>
+
+<div class="container mt-4">
+  <!-- abaixo encontra-se o switch para a rota, avisando o angular que queremos fazer a troca aqui -->
+  <router-outlet></router-outlet>
+  <!-- Não precisamos mais da tag abaixo, pois vamos fazer o redirecionamento via link de rotas em 'app.module.ts' -> 'RouterModule.forRoot...' -->
+  <!-- <app-course-list></app-course-list> -->
+
+</div>
